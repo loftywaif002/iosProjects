@@ -26,6 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark BUTTON METHOD
+
 - (IBAction)buttons:(UIButton *)sender {
    
    //Hold the title that is given to the each button on the view
@@ -47,6 +49,9 @@
     
 }
 
+
+#pragma mark OPERATION BUTTONPRESSED
+
 - (IBAction)operations:(UIButton *)sender {
 
     //Set the userEntry variable to zero
@@ -54,18 +59,23 @@
     //Whatever number is on the screen, please
     //convert it to an integer and put it to the firstNumber
     self.firstNumber = [self.display.text intValue];
-    //Now set the operation variable to the corresponding title of the corresponding button
+    //Now set the operation variable to the "title" given to the corresponding button
     self.operation = [sender currentTitle];
 }
+
+#pragma mark EQUAL BUTTON SHOWS THE RESULT
 
 - (IBAction)equalButton:(UIButton *)sender {
     
     self.userEntry = NO;
+   
+    // Converts whatever is in Display to an integer value
+
     self.secondNumber = [self.display.text intValue];
     
     float result = 0;
     
-    if([self.operation isEqualToString:@"x"])
+    if([self.operation isEqualToString:@"X"])
     {
         result  =self.firstNumber * self.secondNumber;
     }
@@ -88,6 +98,8 @@
     self.display.text = [NSString stringWithFormat:@"%.2f",result];
     
 }
+
+#pragma mark CLEAR BUTTON SETS EVERYTHING TO NIL
 
 - (IBAction)clearButton:(UIButton *)sender {
     self.firstNumber = 0;
