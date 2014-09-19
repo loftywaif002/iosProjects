@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56BE74FC191EA7D0004A687B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE74FB191EA7D0004A687B /* Foundation.framework */; };
+		56BE74FE191EA7D0004A687B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE74FD191EA7D0004A687B /* CoreGraphics.framework */; };
+		56BE7500191EA7D0004A687B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE74FF191EA7D0004A687B /* UIKit.framework */; };
+		56BE7506191EA7D0004A687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56BE7504191EA7D0004A687B /* InfoPlist.strings */; };
+		56BE7508191EA7D0004A687B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE7507191EA7D0004A687B /* main.m */; };
+		56BE750C191EA7D0004A687B /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE750B191EA7D0004A687B /* MMAppDelegate.m */; };
+		56BE750F191EA7D0004A687B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BE750D191EA7D0004A687B /* Main.storyboard */; };
+		56BE7512191EA7D0004A687B /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE7511191EA7D0004A687B /* MMViewController.m */; };
+		56BE7514191EA7D0004A687B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BE7513191EA7D0004A687B /* Images.xcassets */; };
+		56BE751B191EA7D0004A687B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE751A191EA7D0004A687B /* XCTest.framework */; };
+		56BE751C191EA7D0004A687B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE74FB191EA7D0004A687B /* Foundation.framework */; };
+		56BE751D191EA7D0004A687B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE74FF191EA7D0004A687B /* UIKit.framework */; };
+		56BE7525191EA7D0004A687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56BE7523191EA7D0004A687B /* InfoPlist.strings */; };
+		56BE7527191EA7D0004A687B /* RecordaudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE7526191EA7D0004A687B /* RecordaudioTests.m */; };
+		56BE7531191EA80F004A687B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE7530191EA80F004A687B /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56BE751E191EA7D0004A687B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56BE74F0191EA7D0004A687B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BE74F7191EA7D0004A687B;
+			remoteInfo = Recordaudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56BE74F8191EA7D0004A687B /* Recordaudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recordaudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BE74FB191EA7D0004A687B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56BE74FD191EA7D0004A687B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56BE74FF191EA7D0004A687B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56BE7503191EA7D0004A687B /* Recordaudio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recordaudio-Info.plist"; sourceTree = "<group>"; };
+		56BE7505191EA7D0004A687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56BE7507191EA7D0004A687B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56BE7509191EA7D0004A687B /* Recordaudio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recordaudio-Prefix.pch"; sourceTree = "<group>"; };
+		56BE750A191EA7D0004A687B /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		56BE750B191EA7D0004A687B /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		56BE750E191EA7D0004A687B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56BE7510191EA7D0004A687B /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		56BE7511191EA7D0004A687B /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		56BE7513191EA7D0004A687B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56BE7519191EA7D0004A687B /* RecordaudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordaudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BE751A191EA7D0004A687B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56BE7522191EA7D0004A687B /* RecordaudioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecordaudioTests-Info.plist"; sourceTree = "<group>"; };
+		56BE7524191EA7D0004A687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56BE7526191EA7D0004A687B /* RecordaudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordaudioTests.m; sourceTree = "<group>"; };
+		56BE7530191EA80F004A687B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56BE74F5191EA7D0004A687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE7531191EA80F004A687B /* AVFoundation.framework in Frameworks */,
+				56BE74FE191EA7D0004A687B /* CoreGraphics.framework in Frameworks */,
+				56BE7500191EA7D0004A687B /* UIKit.framework in Frameworks */,
+				56BE74FC191EA7D0004A687B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BE7516191EA7D0004A687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE751B191EA7D0004A687B /* XCTest.framework in Frameworks */,
+				56BE751D191EA7D0004A687B /* UIKit.framework in Frameworks */,
+				56BE751C191EA7D0004A687B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56BE74EF191EA7D0004A687B = {
+			isa = PBXGroup;
+			children = (
+				56BE7501191EA7D0004A687B /* Recordaudio */,
+				56BE7520191EA7D0004A687B /* RecordaudioTests */,
+				56BE74FA191EA7D0004A687B /* Frameworks */,
+				56BE74F9191EA7D0004A687B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56BE74F9191EA7D0004A687B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56BE74F8191EA7D0004A687B /* Recordaudio.app */,
+				56BE7519191EA7D0004A687B /* RecordaudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56BE74FA191EA7D0004A687B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56BE7530191EA80F004A687B /* AVFoundation.framework */,
+				56BE74FB191EA7D0004A687B /* Foundation.framework */,
+				56BE74FD191EA7D0004A687B /* CoreGraphics.framework */,
+				56BE74FF191EA7D0004A687B /* UIKit.framework */,
+				56BE751A191EA7D0004A687B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56BE7501191EA7D0004A687B /* Recordaudio */ = {
+			isa = PBXGroup;
+			children = (
+				56BE750A191EA7D0004A687B /* MMAppDelegate.h */,
+				56BE750B191EA7D0004A687B /* MMAppDelegate.m */,
+				56BE750D191EA7D0004A687B /* Main.storyboard */,
+				56BE7510191EA7D0004A687B /* MMViewController.h */,
+				56BE7511191EA7D0004A687B /* MMViewController.m */,
+				56BE7513191EA7D0004A687B /* Images.xcassets */,
+				56BE7502191EA7D0004A687B /* Supporting Files */,
+			);
+			path = Recordaudio;
+			sourceTree = "<group>";
+		};
+		56BE7502191EA7D0004A687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BE7503191EA7D0004A687B /* Recordaudio-Info.plist */,
+				56BE7504191EA7D0004A687B /* InfoPlist.strings */,
+				56BE7507191EA7D0004A687B /* main.m */,
+				56BE7509191EA7D0004A687B /* Recordaudio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56BE7520191EA7D0004A687B /* RecordaudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				56BE7526191EA7D0004A687B /* RecordaudioTests.m */,
+				56BE7521191EA7D0004A687B /* Supporting Files */,
+			);
+			path = RecordaudioTests;
+			sourceTree = "<group>";
+		};
+		56BE7521191EA7D0004A687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BE7522191EA7D0004A687B /* RecordaudioTests-Info.plist */,
+				56BE7523191EA7D0004A687B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56BE74F7191EA7D0004A687B /* Recordaudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BE752A191EA7D0004A687B /* Build configuration list for PBXNativeTarget "Recordaudio" */;
+			buildPhases = (
+				56BE74F4191EA7D0004A687B /* Sources */,
+				56BE74F5191EA7D0004A687B /* Frameworks */,
+				56BE74F6191EA7D0004A687B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recordaudio;
+			productName = Recordaudio;
+			productReference = 56BE74F8191EA7D0004A687B /* Recordaudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56BE7518191EA7D0004A687B /* RecordaudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BE752D191EA7D0004A687B /* Build configuration list for PBXNativeTarget "RecordaudioTests" */;
+			buildPhases = (
+				56BE7515191EA7D0004A687B /* Sources */,
+				56BE7516191EA7D0004A687B /* Frameworks */,
+				56BE7517191EA7D0004A687B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56BE751F191EA7D0004A687B /* PBXTargetDependency */,
+			);
+			name = RecordaudioTests;
+			productName = RecordaudioTests;
+			productReference = 56BE7519191EA7D0004A687B /* RecordaudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56BE74F0191EA7D0004A687B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MasterMind;
+				TargetAttributes = {
+					56BE7518191EA7D0004A687B = {
+						TestTargetID = 56BE74F7191EA7D0004A687B;
+					};
+				};
+			};
+			buildConfigurationList = 56BE74F3191EA7D0004A687B /* Build configuration list for PBXProject "Recordaudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56BE74EF191EA7D0004A687B;
+			productRefGroup = 56BE74F9191EA7D0004A687B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56BE74F7191EA7D0004A687B /* Recordaudio */,
+				56BE7518191EA7D0004A687B /* RecordaudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56BE74F6191EA7D0004A687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE7514191EA7D0004A687B /* Images.xcassets in Resources */,
+				56BE7506191EA7D0004A687B /* InfoPlist.strings in Resources */,
+				56BE750F191EA7D0004A687B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BE7517191EA7D0004A687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE7525191EA7D0004A687B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56BE74F4191EA7D0004A687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE750C191EA7D0004A687B /* MMAppDelegate.m in Sources */,
+				56BE7512191EA7D0004A687B /* MMViewController.m in Sources */,
+				56BE7508191EA7D0004A687B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BE7515191EA7D0004A687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE7527191EA7D0004A687B /* RecordaudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56BE751F191EA7D0004A687B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56BE74F7191EA7D0004A687B /* Recordaudio */;
+			targetProxy = 56BE751E191EA7D0004A687B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56BE7504191EA7D0004A687B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BE7505191EA7D0004A687B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56BE750D191EA7D0004A687B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BE750E191EA7D0004A687B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56BE7523191EA7D0004A687B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BE7524191EA7D0004A687B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56BE7528191EA7D0004A687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56BE7529191EA7D0004A687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56BE752B191EA7D0004A687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recordaudio/Recordaudio-Prefix.pch";
+				INFOPLIST_FILE = "Recordaudio/Recordaudio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56BE752C191EA7D0004A687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recordaudio/Recordaudio-Prefix.pch";
+				INFOPLIST_FILE = "Recordaudio/Recordaudio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56BE752E191EA7D0004A687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recordaudio.app/Recordaudio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recordaudio/Recordaudio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RecordaudioTests/RecordaudioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56BE752F191EA7D0004A687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recordaudio.app/Recordaudio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recordaudio/Recordaudio-Prefix.pch";
+				INFOPLIST_FILE = "RecordaudioTests/RecordaudioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56BE74F3191EA7D0004A687B /* Build configuration list for PBXProject "Recordaudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BE7528191EA7D0004A687B /* Debug */,
+				56BE7529191EA7D0004A687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56BE752A191EA7D0004A687B /* Build configuration list for PBXNativeTarget "Recordaudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BE752B191EA7D0004A687B /* Debug */,
+				56BE752C191EA7D0004A687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56BE752D191EA7D0004A687B /* Build configuration list for PBXNativeTarget "RecordaudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BE752E191EA7D0004A687B /* Debug */,
+				56BE752F191EA7D0004A687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56BE74F0191EA7D0004A687B /* Project object */;
+}

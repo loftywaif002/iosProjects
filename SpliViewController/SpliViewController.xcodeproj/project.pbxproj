@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05240E2818F9F84E003F4ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05240E2718F9F84E003F4ADE /* Foundation.framework */; };
+		05240E2A18F9F84E003F4ADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05240E2918F9F84E003F4ADE /* CoreGraphics.framework */; };
+		05240E2C18F9F84F003F4ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05240E2B18F9F84F003F4ADE /* UIKit.framework */; };
+		05240E3218F9F84F003F4ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05240E3018F9F84F003F4ADE /* InfoPlist.strings */; };
+		05240E3418F9F84F003F4ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05240E3318F9F84F003F4ADE /* main.m */; };
+		05240E3818F9F84F003F4ADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05240E3718F9F84F003F4ADE /* AppDelegate.m */; };
+		05240E3A18F9F84F003F4ADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05240E3918F9F84F003F4ADE /* Images.xcassets */; };
+		05240E4118F9F84F003F4ADE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05240E4018F9F84F003F4ADE /* XCTest.framework */; };
+		05240E4218F9F84F003F4ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05240E2718F9F84E003F4ADE /* Foundation.framework */; };
+		05240E4318F9F84F003F4ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05240E2B18F9F84F003F4ADE /* UIKit.framework */; };
+		05240E4B18F9F84F003F4ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05240E4918F9F84F003F4ADE /* InfoPlist.strings */; };
+		05240E4D18F9F84F003F4ADE /* SpliViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05240E4C18F9F84F003F4ADE /* SpliViewControllerTests.m */; };
+		05240E5718F9F873003F4ADE /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05240E5618F9F872003F4ADE /* Storyboard_iPad.storyboard */; };
+		05240E5918F9F892003F4ADE /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05240E5818F9F892003F4ADE /* Storyboard_iPhone.storyboard */; };
+		05240E5C18F9F8C6003F4ADE /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05240E5B18F9F8C6003F4ADE /* MasterTableViewController.m */; };
+		05240E5F18F9F8DF003F4ADE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05240E5E18F9F8DF003F4ADE /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05240E4418F9F84F003F4ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05240E1C18F9F84E003F4ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05240E2318F9F84E003F4ADE;
+			remoteInfo = SpliViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05240E2418F9F84E003F4ADE /* SpliViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpliViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05240E2718F9F84E003F4ADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05240E2918F9F84E003F4ADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05240E2B18F9F84F003F4ADE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05240E2F18F9F84F003F4ADE /* SpliViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpliViewController-Info.plist"; sourceTree = "<group>"; };
+		05240E3118F9F84F003F4ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05240E3318F9F84F003F4ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05240E3518F9F84F003F4ADE /* SpliViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpliViewController-Prefix.pch"; sourceTree = "<group>"; };
+		05240E3618F9F84F003F4ADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05240E3718F9F84F003F4ADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05240E3918F9F84F003F4ADE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05240E3F18F9F84F003F4ADE /* SpliViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpliViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05240E4018F9F84F003F4ADE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05240E4818F9F84F003F4ADE /* SpliViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpliViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		05240E4A18F9F84F003F4ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05240E4C18F9F84F003F4ADE /* SpliViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpliViewControllerTests.m; sourceTree = "<group>"; };
+		05240E5618F9F872003F4ADE /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		05240E5818F9F892003F4ADE /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		05240E5A18F9F8C6003F4ADE /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		05240E5B18F9F8C6003F4ADE /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		05240E5D18F9F8DF003F4ADE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		05240E5E18F9F8DF003F4ADE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05240E2118F9F84E003F4ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05240E2A18F9F84E003F4ADE /* CoreGraphics.framework in Frameworks */,
+				05240E2C18F9F84F003F4ADE /* UIKit.framework in Frameworks */,
+				05240E2818F9F84E003F4ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05240E3C18F9F84F003F4ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05240E4118F9F84F003F4ADE /* XCTest.framework in Frameworks */,
+				05240E4318F9F84F003F4ADE /* UIKit.framework in Frameworks */,
+				05240E4218F9F84F003F4ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05240E1B18F9F84E003F4ADE = {
+			isa = PBXGroup;
+			children = (
+				05240E2D18F9F84F003F4ADE /* SpliViewController */,
+				05240E4618F9F84F003F4ADE /* SpliViewControllerTests */,
+				05240E2618F9F84E003F4ADE /* Frameworks */,
+				05240E2518F9F84E003F4ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05240E2518F9F84E003F4ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05240E2418F9F84E003F4ADE /* SpliViewController.app */,
+				05240E3F18F9F84F003F4ADE /* SpliViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05240E2618F9F84E003F4ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05240E2718F9F84E003F4ADE /* Foundation.framework */,
+				05240E2918F9F84E003F4ADE /* CoreGraphics.framework */,
+				05240E2B18F9F84F003F4ADE /* UIKit.framework */,
+				05240E4018F9F84F003F4ADE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05240E2D18F9F84F003F4ADE /* SpliViewController */ = {
+			isa = PBXGroup;
+			children = (
+				05240E3618F9F84F003F4ADE /* AppDelegate.h */,
+				05240E3718F9F84F003F4ADE /* AppDelegate.m */,
+				05240E5618F9F872003F4ADE /* Storyboard_iPad.storyboard */,
+				05240E5818F9F892003F4ADE /* Storyboard_iPhone.storyboard */,
+				05240E5A18F9F8C6003F4ADE /* MasterTableViewController.h */,
+				05240E5B18F9F8C6003F4ADE /* MasterTableViewController.m */,
+				05240E5D18F9F8DF003F4ADE /* DetailViewController.h */,
+				05240E5E18F9F8DF003F4ADE /* DetailViewController.m */,
+				05240E3918F9F84F003F4ADE /* Images.xcassets */,
+				05240E2E18F9F84F003F4ADE /* Supporting Files */,
+			);
+			path = SpliViewController;
+			sourceTree = "<group>";
+		};
+		05240E2E18F9F84F003F4ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05240E2F18F9F84F003F4ADE /* SpliViewController-Info.plist */,
+				05240E3018F9F84F003F4ADE /* InfoPlist.strings */,
+				05240E3318F9F84F003F4ADE /* main.m */,
+				05240E3518F9F84F003F4ADE /* SpliViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05240E4618F9F84F003F4ADE /* SpliViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				05240E4C18F9F84F003F4ADE /* SpliViewControllerTests.m */,
+				05240E4718F9F84F003F4ADE /* Supporting Files */,
+			);
+			path = SpliViewControllerTests;
+			sourceTree = "<group>";
+		};
+		05240E4718F9F84F003F4ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05240E4818F9F84F003F4ADE /* SpliViewControllerTests-Info.plist */,
+				05240E4918F9F84F003F4ADE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05240E2318F9F84E003F4ADE /* SpliViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05240E5018F9F84F003F4ADE /* Build configuration list for PBXNativeTarget "SpliViewController" */;
+			buildPhases = (
+				05240E2018F9F84E003F4ADE /* Sources */,
+				05240E2118F9F84E003F4ADE /* Frameworks */,
+				05240E2218F9F84E003F4ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpliViewController;
+			productName = SpliViewController;
+			productReference = 05240E2418F9F84E003F4ADE /* SpliViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05240E3E18F9F84F003F4ADE /* SpliViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05240E5318F9F84F003F4ADE /* Build configuration list for PBXNativeTarget "SpliViewControllerTests" */;
+			buildPhases = (
+				05240E3B18F9F84F003F4ADE /* Sources */,
+				05240E3C18F9F84F003F4ADE /* Frameworks */,
+				05240E3D18F9F84F003F4ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05240E4518F9F84F003F4ADE /* PBXTargetDependency */,
+			);
+			name = SpliViewControllerTests;
+			productName = SpliViewControllerTests;
+			productReference = 05240E3F18F9F84F003F4ADE /* SpliViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05240E1C18F9F84E003F4ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Manjula Jonnalagadda";
+				TargetAttributes = {
+					05240E3E18F9F84F003F4ADE = {
+						TestTargetID = 05240E2318F9F84E003F4ADE;
+					};
+				};
+			};
+			buildConfigurationList = 05240E1F18F9F84E003F4ADE /* Build configuration list for PBXProject "SpliViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05240E1B18F9F84E003F4ADE;
+			productRefGroup = 05240E2518F9F84E003F4ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05240E2318F9F84E003F4ADE /* SpliViewController */,
+				05240E3E18F9F84F003F4ADE /* SpliViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05240E2218F9F84E003F4ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05240E3218F9F84F003F4ADE /* InfoPlist.strings in Resources */,
+				05240E3A18F9F84F003F4ADE /* Images.xcassets in Resources */,
+				05240E5918F9F892003F4ADE /* Storyboard_iPhone.storyboard in Resources */,
+				05240E5718F9F873003F4ADE /* Storyboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05240E3D18F9F84F003F4ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05240E4B18F9F84F003F4ADE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05240E2018F9F84E003F4ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05240E3818F9F84F003F4ADE /* AppDelegate.m in Sources */,
+				05240E3418F9F84F003F4ADE /* main.m in Sources */,
+				05240E5C18F9F8C6003F4ADE /* MasterTableViewController.m in Sources */,
+				05240E5F18F9F8DF003F4ADE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05240E3B18F9F84F003F4ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05240E4D18F9F84F003F4ADE /* SpliViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05240E4518F9F84F003F4ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05240E2318F9F84E003F4ADE /* SpliViewController */;
+			targetProxy = 05240E4418F9F84F003F4ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05240E3018F9F84F003F4ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05240E3118F9F84F003F4ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05240E4918F9F84F003F4ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05240E4A18F9F84F003F4ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05240E4E18F9F84F003F4ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05240E4F18F9F84F003F4ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05240E5118F9F84F003F4ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpliViewController/SpliViewController-Prefix.pch";
+				INFOPLIST_FILE = "SpliViewController/SpliViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05240E5218F9F84F003F4ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpliViewController/SpliViewController-Prefix.pch";
+				INFOPLIST_FILE = "SpliViewController/SpliViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05240E5418F9F84F003F4ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpliViewController.app/SpliViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpliViewController/SpliViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpliViewControllerTests/SpliViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05240E5518F9F84F003F4ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpliViewController.app/SpliViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpliViewController/SpliViewController-Prefix.pch";
+				INFOPLIST_FILE = "SpliViewControllerTests/SpliViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05240E1F18F9F84E003F4ADE /* Build configuration list for PBXProject "SpliViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05240E4E18F9F84F003F4ADE /* Debug */,
+				05240E4F18F9F84F003F4ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05240E5018F9F84F003F4ADE /* Build configuration list for PBXNativeTarget "SpliViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05240E5118F9F84F003F4ADE /* Debug */,
+				05240E5218F9F84F003F4ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05240E5318F9F84F003F4ADE /* Build configuration list for PBXNativeTarget "SpliViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05240E5418F9F84F003F4ADE /* Debug */,
+				05240E5518F9F84F003F4ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05240E1C18F9F84E003F4ADE /* Project object */;
+}
